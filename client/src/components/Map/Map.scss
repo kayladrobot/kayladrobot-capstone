@@ -1,0 +1,12 @@
+
+.map{
+    width: 100%; /* Adjust the width to your desired value */
+    height: 40rem; /* Adjust the height to your desired value */
+    border-radius: 8px; /* Add border-radius for a rounded corner effect */
+
+
+    &__container {
+        width: 100%;
+        height: 40rem;
+    }
+}

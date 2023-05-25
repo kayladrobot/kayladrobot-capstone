@@ -1,0 +1,133 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.match {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // justify-content: center;
+  align-items: center;
+  gap: 1.6rem;
+
+  &__close-icon {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    width: 100%;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__creative-content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+  }
+
+  &__creative-copy {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__creative-img {
+    width: 30rem;
+    height: 30rem;
+  }
+
+  &__creative {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 3.2rem;
+    border: 0.1rem solid $primary-color-black;
+    border-radius: 2.5rem;
+    width: fit-content;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+
+  &__creative-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1.6rem;
+  }
+
+  &__creative-link {
+    text-decoration: underline;
+  }
+
+  &__categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  &__category-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+
+  &__category {
+    padding: 0.4rem;
+    border: 0.1rem solid $primary-color-black;
+    border-radius: 0.5rem;
+  }
+
+  &__button {
+    @include button($primary-color-black, $primary-color-white);
+  }
+
+  &__button-container {
+    display: flex;
+    gap: 1.6rem;
+  }
+
+  &__button-next {
+    @include button($primary-color-black, $primary-color-white);
+  }
+
+  &__button-back {
+    @include button($primary-color-white, $primary-color-black);
+  }
+
+  &__end-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    text-align: center;
+  }
+
+  &__end-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+}

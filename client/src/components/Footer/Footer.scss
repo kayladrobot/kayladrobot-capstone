@@ -1,0 +1,91 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.footer {
+    background-color: $primary-color-black;
+    padding: 3.2rem 1.6rem 1.6rem 1.6rem;
+    color: $primary-color-white;
+    
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    padding-bottom: 1.6rem;
+    margin-bottom: 1.6rem;
+    border-bottom: 0.1rem solid $primary-color-white;
+
+    @include tablet {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 4.8rem;
+    }
+}
+
+  &__logo {
+    width: 100%;
+    border-bottom: .1rem solid $primary-color-white;
+    padding-bottom: 1.6rem;
+
+    @include tablet {
+        width: 20rem;
+        border: none;
+    }
+  }
+
+  &__nav {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1.6rem;
+    justify-content: space-between;
+
+    @include tablet {
+        flex-direction: row;
+        gap: 6.4rem;
+    }
+  }
+
+  &__nav-main {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  &__social-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
+  }
+
+  &__social-icon {
+    width: 2rem;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+  }
+
+  &__btn--primary {
+    @include button__nav($primary-color-white, $primary-color-black)
+  }
+
+  &__btn--secondary {
+    @include button__nav($primary-color-black, $primary-color-white){
+        border: .1rem solid $primary-color-white;
+    }
+  }
+}

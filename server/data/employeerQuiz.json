@@ -1,0 +1,14 @@
+[
+    {
+      "question": "Which creative field best aligns with your needs?",
+      "answers": ["Visual Artist", "Graphic Designer", "Illustrator", "UI Designer", "Web Developer", "Photographer"]
+    },
+    {
+      "question": "What availability are you looking for?",
+      "answers": ["Full-time", "Part-time", "Freelance"]
+    },
+    {
+      "question": "What type of service are you looking for?",
+      "answers": ["Branding", "Logo Design", "Graphic Design", "Web Design", "Illustration", "Artwork", "Web Development"]
+    }
+  ]

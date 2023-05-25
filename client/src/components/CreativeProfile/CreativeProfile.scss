@@ -1,0 +1,156 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.profile {
+  background-color: $primary-color-black;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+    }
+  }
+
+  &__bar {
+    display: flex;
+    flex-direction: row;
+    background-color: $primary-color-white;
+    // padding: 3.2rem 1.6rem;
+    margin: 1.6rem;
+    border-radius: 2rem;
+
+    @include tablet {
+      flex-direction: column;
+    }
+  }
+
+  &__info {
+    border-bottom: .1rem solid $primary-color-black;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+    gap: 1.6rem;
+  }
+
+  &__header-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__rate, &__availability {
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+  }
+
+  &__work {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid $primary-color-black;
+  }
+
+  &__main {
+    background-color: $primary-color-white;
+    padding: 3.2rem;
+    margin: 1.6rem 1.6rem 1.6rem 0;
+    border-radius: 2rem;
+  }
+
+  &__profile-img {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 10rem;
+  }
+
+  &__profile-strong {
+    font-weight: 800;
+  }
+
+  &__profile--images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3.2rem;
+  }
+
+  &__project--img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  &__education-header {
+    padding-bottom: .8rem;
+  }
+
+  &__education-wrapper {
+    border-bottom: .1rem solid $primary-color-black;
+    padding: 1.6rem;
+  }
+
+  &__dates {
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
+  }
+
+  &__categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid $primary-color-black;
+  }
+
+  &__category {
+    padding: 0.4rem;
+    border: 0.1rem solid $primary-color-black;
+    border-radius: 0.5rem;
+    height: fit-content;
+  }
+
+  &__social-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid $primary-color-black;
+  }
+
+  &__social-icon {
+    width: 3rem;
+  }
+
+  &__social-icon path {
+    fill: $primary-color-black;
+  }
+
+  &__button-wrapper {
+    padding: 1.6rem;
+  }
+
+  &__back-bar {
+    padding: 1.6rem;
+    border-bottom: .1rem solid $primary-color-black;
+  }
+
+  &__button {
+    @include button($primary-color-black, $primary-color-white)
+  }
+
+  &__back {
+    @include button($primary-color-white, $primary-color-black)
+  }
+}

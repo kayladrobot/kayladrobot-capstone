@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "mysql": "^2.18.1",
+    "uniqid": "^5.4.0",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "migrate": "knex migrate:latest --knexfile ./db/knexfile.js",
+    "migrate:down": "knex migrate:down --knexfile ./db/knexfile.js",
+    "migrate:rollback": "knex migrate:rollback --knexfile ./db/knexfile.js",
+    "seed": "knex seed:run --knexfile ./db/knexfile.js",
+    "dev": "nodemon -r dotenv/config index.js dotenv_config_path=.env",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

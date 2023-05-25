@@ -1,0 +1,161 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  padding: 3.2rem 1.6rem;
+  border-bottom: 0.1rem solid $primary-color-black;
+
+  @include tablet {
+    border-bottom: 0.1rem solid $primary-color-black;
+  }
+
+  @include tablet {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+
+  &__header-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  &__logo-container {
+    width: 22rem;
+    transition: height 0.3s ease; /* Add a smooth transition effect */
+  }
+
+  &__logo {
+    transition: max-height 0.3s ease;
+    width: 22rem;
+
+    @include tablet {
+      width: 22rem;
+    }
+    @include desktop {
+      width: 40rem;
+    }
+  }
+
+  &__menu-container {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / span 3;
+    background-color: $primary-color-black;
+    padding: 0.4rem;
+    border-radius: 20rem;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__menu-icon {
+    display: block;
+    width: 3.5rem;
+    color: $primary-color-white;
+
+    @include tablet {
+      display: none;
+    }
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 3.2rem;
+    width: 100%;
+
+    @include tablet {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  &__container--open {
+    display: flex;
+    flex-direction: column;
+    padding: 3.2rem 0 0 0;
+    border-top: 0.1rem solid #000000;
+    margin-top: 1.6rem;
+  }
+
+  &__container--closed {
+    display: none;
+  }
+
+  &__item {
+    transition: all 1s ease-in-out;
+  }
+
+  &__item:hover {
+    text-decoration: underline;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    @include tablet {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      padding-top: 0;
+      margin-top: 0;
+      gap: 3.2rem;
+    }
+  }
+
+  &__btn-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+
+  &__btn--primary {
+    @include button__nav($primary-color-black, $primary-color-white) {
+    }
+  }
+
+  &__btn--secondary {
+    @include button__nav($primary-color-white, $primary-color-black) {
+    }
+  }
+}
+
+.shrunk-logo {
+  width: 100%;
+  transition: transform 0.3s ease;
+  transform: scale(1);
+}
+
+.shrunk-logo.shrunk {
+  transform: scale(0.2);
+}

@@ -1,0 +1,16 @@
+
+
+[
+    {
+      "question": "What kind of employment are you looking for?",
+      "answers": ["Red", "Green", "Blue", "Yellow"]
+    },
+    {
+      "question": "Choose your availability",
+      "answers": ["Dog", "Cat", "Bird", "Horse"]
+    },
+    {
+      "question": "What is your favorite food?",
+      "answers": ["Pizza", "Burger", "Sushi", "Thai"]
+    }
+  ]

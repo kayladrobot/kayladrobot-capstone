@@ -1,0 +1,52 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 5.4rem;
+        gap: 3.2rem;
+    }
+
+    &__close-icon {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    &__cupid-icon {
+        width: 15rem;
+    }
+
+    &__copy-container {
+        width: 60%;
+    }
+
+    &__button-wrapper{
+        display: flex;
+        gap: 1.6rem;
+    }
+
+    &__button {
+        @include button($primary-color-black, $primary-color-white){
+        }
+    }
+
+    &__button--close {
+        @include button($primary-color-white, $primary-color-black){
+        }
+    }
+}

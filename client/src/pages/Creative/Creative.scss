@@ -1,0 +1,41 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.creative {
+  &__categories {
+    display: flex;
+    flex-direction: row;
+    gap: 1.6rem;
+  }
+
+  &__category-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+
+  &__category {
+    border: 0.1rem solid $primary-color-black;
+    width: fit-content;
+    padding: 0.4rem 0.8rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+    text-transform: uppercase;
+  }
+
+  &__category--close {
+    outline: none;
+    border: none;
+    background-color: white;
+    color: #000000;
+  }
+}

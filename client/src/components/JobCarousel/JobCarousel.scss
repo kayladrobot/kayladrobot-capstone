@@ -1,0 +1,99 @@
+@use "../../styles/partials/fonts" as *;
+@use "../../styles/partials/colors" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/button" as *;
+@use "../../styles/partials/input" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.jobcarousel {
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.6rem;
+      padding: 3.2rem 1.6rem;
+      text-align: left;
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    border: 0.1rem solid $primary-color-black;
+    border-radius: 2rem;
+    padding: 1.6rem;
+    background-color: $primary-color-white;
+
+    @include tablet {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  &__icon {
+    width: 6rem;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    text-align: left;
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  &__categories {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+
+  &__category {
+    padding: 0.4rem;
+    border: 0.1rem solid $primary-color-black;
+    border-radius: 0.5rem;
+    height: fit-content;
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.2rem;
+    align-items: center;
+  }
+
+  &__button {
+    @include button($primary-color-black, $primary-color-white);
+  }
+}
+
+.alice-carousel__stage-item {
+  width: unset !important;
+}
+
+.alice-carousel__stage-item.__active.__target {
+  width: unset !important;
+}
+
+.alice-carousel__stage-item.__active {
+  width: unset;
+}

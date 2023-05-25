@@ -1,0 +1,200 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Patel",
+    "bio": "Sarah is an accomplished painter with a passion for capturing the beauty of nature. Originally from the Pacific Northwest, Sarah draws inspiration from the lush forests and rugged coastline of her home region. Her work is characterized by detailed, realistic depictions of landscapes and seascapes, often featuring bold colors and dramatic lighting. Sarah's paintings have been displayed in galleries and exhibitions throughout the country, and she has won numerous awards for her skillful use of light and color. In addition to painting, Sarah is an avid hiker and outdoor enthusiast, often venturing into the wilderness to find new inspiration for her art. With her exceptional talent and unwavering dedication, Sarah is widely recognized as one of the most talented painters of her generation.",
+    "email": "sarahpatel@gmail.com",
+    "location": "1332 Fraser St, Vancouver",
+    "marker": "49.265697, -123.100798",
+    "status": "Available",
+    "title": "Painter/Visual Artist",
+    "rate": "$40/hr",
+    "profile": "http://localhost:8000/images/creatives/1/profile.jpg",
+    "available": "Available",
+    "education": [
+      {
+        "0": 
+          {
+            "name": "University of California",
+            "degree": "Bachelor of Arts",
+            "startdate": "2004",
+            "enddate": "2007"
+          }
+      }
+    ],
+    "labels": ["painter", "typography", "creative", "branding", "illustrator"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/1/4.jpg",
+        "1": "http://localhost:8000/images/creatives/1/1.jpg",
+        "2": "http://localhost:8000/images/creatives/1/2.jpg",
+        "3": "http://localhost:8000//images/creatives/1/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "James L. Holt",
+    "bio": "Meet James, an up-and-coming artist based in Vancouver. James's passion for art began at an early age, and he honed his skills by studying at some of the most prestigious art schools in the country. James's style is characterized by bold brushstrokes and vibrant colors, which he uses to capture the energy and spirit of the urban landscape. His work has been exhibited in galleries across the country, and he has won several awards for his unique and captivating paintings. When he's not in the studio, James enjoys exploring the city's art scene and drawing inspiration from the vibrant culture and diverse communities around him. With his talent and dedication, James is sure to make a lasting impact on the world of contemporary art.",
+    "email": "jamesholt@gmail.com",
+    "location": "2290 Cambie St, Vancouver",
+    "marker": "49.264792, -123.113472",
+    "status": "Available",
+    "title": "UI Designer",
+    "rate": "$50/hr",
+    "profile": "http://localhost:8000/images/creatives/2/profile.jpg",
+    "education": [
+      {
+        "0": [
+          {
+            "name": "Emily Carr University",
+            "degree": "Bachelor of Communication Design",
+            "startdate": "2008",
+            "enddate": "2012"
+          }
+        ]
+      }
+    ],
+    "labels": ["designer", "ui designer", "ux designer", "web developer", "HTML", "CSS", "javaScript"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/2/4.jpg",
+        "1": "http://localhost:8000/images/creatives/2/1.jpg",
+        "2": "http://localhost:8000/images/creatives/2/2.jpg",
+        "3": "http://localhost:8000/images/creatives/2/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Emily Roswald",
+    "bio": "Meet Emily, a talented illustrator based in Vancouver, Canada. Emily's passion for illustration began at a young age and was inspired by her love for storytelling and creating characters. She went on to study at a prestigious art school in the city, where she honed her skills in both traditional and digital illustration. Emily's style is whimsical and playful, characterized by her bold use of color and intricate details. She draws inspiration from nature, mythology, and her travels around the world, bringing a unique perspective to her work. Emily's illustrations have been featured in books, magazines, and advertising campaigns, and she has won several awards for her captivating and imaginative designs.",
+    "email": "emilyr@gmail.com",
+    "location": "677 Cambie St, Vancouver",
+    "marker": "49.262690, -123.092757",
+    "status": "Available",
+    "title": "Illustrator",
+    "rate": "45",
+    "profile": "http://localhost:8000/images/creatives/3/profile.jpg",
+    "education": [
+      {
+        "0": [
+          {
+            "name": "University of British Columbia",
+            "degree": "Bachelor of Arts",
+            "startdate": "2013",
+            "enddate": "2018"
+          }
+        ]
+      }
+    ],
+    "labels": ["illustrator", "graphic designer", "designer", "branding", "typography"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/3/4.jpg",
+        "1": "http://localhost:8000/images/creatives/3/1.jpg",
+        "2": "http://localhost:8000/images/creatives/3/2.jpg",
+        "3": "http://localhost:8000/images/creatives/3/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Alex Lu",
+    "bio": "Meet Alex, a passionate UI (user interface) designer based in Vancouver. With a background in graphic design, Alex has always been fascinated by the intersection of art and technology. After completing a degree in graphic design, Alex began to explore the world of UI design and quickly fell in love with the field. Alex is skilled in creating intuitive and user-friendly interfaces that seamlessly blend form and function. Whether it's designing a new app or a website, Alex takes a user-centered approach to every project, carefully considering the needs and preferences of the target audience. ",
+    "email": "alexlu@gmail.com",
+    "location": "2775 Laurel St, Vancouver",
+    "marker": "49.262135, -123.126920",
+    "status": "Not-Available",
+    "title": "UI Designer",
+    "rate": "50",
+    "profile": "http://localhost:8000/images/creatives/4/profile.jpg",
+    "education": [
+      {
+        "0": [
+          {
+            "name": "Emily Carr University",
+            "degree": "Bachelor of Communication Design",
+            "startdate": "2008",
+            "enddate": "2012"
+          }
+        ]
+      }
+    ],
+    "labels": ["web designer", "ui designer", "ux designer", "web developer", "HTML", "CSS", "javaScript"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/4/4.jpg",
+        "1": "http://localhost:8000/images/creatives/4/1.jpg",
+        "2": "http://localhost:8000/images/creatives/4/2.jpg",
+        "3": "http://localhost:8000/images/creatives/4/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Brit Thompson ",
+    "bio": "Brit is an accomplished UI Designer with over a decade of experience in the field. Her passion for design started at a young age, when she would spend hours drawing and creating her own designs. This love for creating led her to pursue a degree in graphic design, where she learned the principles of visual communication and the art of creating compelling user experiences. Throughout her career, Brit has worked with some of the biggest names in tech, helping to design and develop innovative products that have changed the way people interact with technology. Her expertise in user-centered design has earned her multiple awards and recognition within the industry.",
+    "email": "bthompson@gmail.com",
+    "location": "2949 Main St, Vancouver",
+    "marker": "49.258609, -123.101606",
+    "status": "Partial",
+    "title": "UI Designer",
+    "rate": "$55",
+    "profile": "http://localhost:8000/images/creatives/5/profile.jpg",
+    "education": [
+      {
+        "0": [
+          {
+            "name": "Capilano University",
+            "degree": "Bachelor of Design",
+            "startdate": "2009",
+            "enddate": "2013"
+          }
+        ]
+      }
+    ],
+    "labels": ["web designer", "ui designer", "ux designer", "web developer", "HTML", "CSS", "javaScript"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/5/4.jpg",
+        "1": "http://localhost:8000/images/creatives/5/1.jpg",
+        "2": "http://localhost:8000/images/creatives/5/2.jpg",
+        "3": "http://localhost:8000/images/creatives/5/3.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "AJ Davis",
+    "bio": "AJ is a talented graphic designer with a passion for creating stunning visuals that captivate and inspire. With over a decade of experience in the industry, Ivy has worked on a wide range of projects, from brand identity and marketing collateral to website design and app development. She is known for her exceptional attention to detail and ability to transform complex ideas into simple, elegant designs that communicate effectively. Ivy is a master of color theory and typography, and she always stays up-to-date with the latest design trends and technologies.",
+    "email": "ajdavis@gmail.com",
+    "location": "324 W 10th Ave, Vancouver",
+    "marker": "49.262188, -123.111496",
+    "status": "Available",
+    "title": "UI Designer",
+    "rate": "$55",
+    "profile": "http://localhost:8000/images/creatives/6/profile.jpg",
+    "education": [
+      {
+        "0": [
+          {
+            "name": "Capilano University",
+            "degree": "Bachelor of Design",
+            "startdate": "2012",
+            "enddate": "2016"
+          }
+        ]
+      }
+    ],
+    "labels": ["creative", "designer", "graphic design", "print", "digital", "branding", "typography"],
+    "image": [
+      {
+        "0": "http://localhost:8000/images/creatives/6/4.jpg",
+        "1": "http://localhost:8000/images/creatives/6/1.jpg",
+        "2": "http://localhost:8000/images/creatives/6/2.jpg",
+        "3": "http://localhost:8000/images/creatives/6/3.jpg"
+      }
+    ]
+  }
+]

@@ -1,0 +1,81 @@
+[
+      {
+        "id": 1,
+        "employer_name": "Pixel Perfect",
+        "employer_location": "123 Fake Street, Vancouver",
+        "job_title": "Web Designer",
+        "job_description": "We are looking for a creative designer to join our team. The ideal candidate has a strong sense of visual design and an eye for detail. Must be proficient in Adobe Creative Suite and have experience in both print and digital media.",
+        "job_type": "Full-time",
+        "start_date": "ASAP",
+        "rate": "$60,000 - $80,000",
+        "contact_email": "jobs@pixelperfect.com",
+        "labels": ["creative", "designer", "graphic design", "print", "digital"],
+        "image": "http://localhost:8000/images/jobs/design.svg"
+      },
+      {
+        "id": 2,
+        "employer_name": "Design Co.",
+        "employer_location": "456 Cordova Ave, Vancouver",
+        "job_title": "Graphic Designer",
+        "job_description": "We are seeking a graphic designer with a passion for typography and branding. Must have experience with layout and design in both print and digital media. Proficiency in Adobe Creative Suite and Sketch is a must.",
+        "job_type": "Freelance",
+        "start_date": "June 1, 2023",
+        "rate": "$35/hour",
+        "email": "jobs@designco.com",
+        "labels": ["typography", "branding", "digital"],
+        "image": "http://localhost:8000/images/jobs/text.svg"
+      },
+      {
+        "id": 3,
+        "employer_name": "Web Wizards",
+        "employer_location": "789 Burrard Street, Vancouver",
+        "job_title": "Web Designer",
+        "job_description": "We are looking for a web designer to create stunning websites and digital experiences. Must have experience with responsive design, HTML, CSS, and JavaScript. Proficiency in Sketch and Adobe Creative Suite is a must.",
+        "job_type": "Full-time",
+        "start_date": "July 15, 2023",
+        "rate": "$70,000 - $90,000",
+        "contact_email": "jobs@webwizards.com",
+        "labels": ["web design", "responsive design", "HTML", "CSS", "JavaScript", "designer", "ui designer"],
+        "image": "http://localhost:8000/images/jobs/design.svg"
+      },
+      {
+        "id": 4,
+        "employer_name": "Pixel Playground",
+        "employer_location": "1010 Chester Street, Vancouver",
+        "job_title": "Designer/Illustrator",
+        "job_description": "Our company is seeking a talented designer/illustrator to join our team. The ideal candidate should have a strong background in both graphic design and illustration, with a keen eye for detail and the ability to create visually compelling designs. The role will involve working on a variety of projects, including branding, packaging, and print and digital design. The designer/illustrator will be responsible for conceptualizing and creating original designs, as well as collaborating with clients to bring their vision to life.",
+        "job_type": "Full-time",
+        "start_date": "August 1, 2023",
+        "rate": "$80,000 - $100,000",
+        "contact_email": "jobs@pixelplayground.com",
+        "labels": ["illustrator", "graphic designer", "designer"],
+        "image": "http://localhost:8000/images/jobs/write.svg"
+      },
+      {
+        "id": 5,
+        "employer_name": "Ray's Restaurant & Bar",
+        "employer_location": "1111 Lyon Street, Vancouver",
+        "job_title": "Mural Artist",
+        "job_description": "We are seeking a talented designer or illustrator to join our team on a freelance basis. As a Mural Artist, you will be responsible for creating large-scale, high-quality murals in various locations, including but not limited to, public spaces, commercial buildings, and private residences. The ideal candidate will have a strong portfolio of work that demonstrates their ability to work in a range of styles and mediums.",
+        "job_type": "Freelance",
+        "start_date": "September 1, 2023",
+        "rate": "$100,000 - $120,000",
+        "contact_email": "jobs@digitaldreams.com",
+        "labels": ["painter", "illustrator", "visual artist"],
+        "image": "http://localhost:8000/images/jobs/paint.svg"
+      },
+      {
+        "id": 5,
+        "employer_name": "Colder Publishing",
+        "employer_location": "116 Braxten Street, Vancouver",
+        "job_title": "Book Illustrator",
+        "job_description": "As a book illustrator, you will work closely with authors and publishers to bring their stories to life through captivating illustrations. Your responsibilities will include interpreting the author's vision for the book, creating sketches and storyboards, and producing final artwork in a variety of styles and mediums. You will need to have a strong understanding of composition, color theory, and narrative storytelling, as well as experience with traditional and digital illustration tools. Your work will play a critical role in engaging and inspiring readers of all ages, and you will have the opportunity to make a lasting impact on the world of children's literature.",
+        "job_type": "Full-time",
+        "start_date": "August 1, 2023",
+        "rate": "$100,000 - $120,000",
+        "contact_email": "jobs@colderpublishing.com",
+        "labels": ["designer", "illustrator", "visual artist"],
+        "image": "http://localhost:8000/images/jobs/write.svg"
+      }
+    ]
+  
